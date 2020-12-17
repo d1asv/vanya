@@ -1,4 +1,4 @@
-h = open("E:\ICS-123\my_file\my_file.txt", 'w+')
+h = open("C:\ICS-121\my_file\my_file.txt", 'w+')
 i = 1
 for i in range(10):
     
@@ -8,7 +8,7 @@ for i in range(10):
     
 h.close()
 
-b = open("E:\ICS-123\my_file\my_file.txt", 'r')
+b = open("C:\ICS-121\my_file\my_file.txt", 'r')
 slist = []
 k = 0
 for k in range (5):
@@ -20,6 +20,6 @@ b.close()
 
 print('___________________________________')
 
-with open("E:\ICS-123\my_file\my_file.txt") as sf:
+with open("C:\ICS-121\my_file\my_file.txt") as sf:
     file = sf.readlines()
 print(file)
